@@ -3,7 +3,7 @@ from typing import Dict, Any, Optional
 from datetime import datetime
 import logging
 
-from ..core.config import settings
+from client.src.core.config import settings
 
 logger = logging.getLogger(__name__)
 
