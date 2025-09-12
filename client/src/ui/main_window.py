@@ -5,7 +5,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QStringListModel
 import logging
 
-from client.utils.api_client import APIClient
+from src.utils.api_client import APIClient
 
 logger = logging.getLogger(__name__)
 

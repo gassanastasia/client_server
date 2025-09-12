@@ -6,7 +6,7 @@ from PySide6.QtWidgets import QApplication
 # Добавляем путь для импортов
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from .ui.main_window import MainWindow
+from src.ui.main_window import MainWindow
 
 def setup_logging():
     """Setup application logging."""
