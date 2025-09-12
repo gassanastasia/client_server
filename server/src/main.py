@@ -3,9 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import logging
 
-from .core.config import settings
-from .core.db_helper import db_helper
-from .requests import router as requests_router
+from src.core.config import settings
+from src.core.db_helper import db_helper
+from requests import router as requests_router
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

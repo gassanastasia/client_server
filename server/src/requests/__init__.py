@@ -1,3 +1,3 @@
-from .views import router
+from requests.views import router
 
 __all__ = ["router"]

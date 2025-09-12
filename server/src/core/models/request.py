@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, DateTime, func
 from datetime import datetime
 
-from .base import Base
+from models.base import Base
 
 class Request(Base):
     __tablename__ = "requests"

@@ -2,8 +2,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, desc
 from typing import Dict
 
-from ..core.models.request import Request
-from .schemas import RequestCreate
+from src.core.models.request import Request
+from requests.schemas import RequestCreate
 
 class RequestCRUD:
     async def create(self, session: AsyncSession, request_in: RequestCreate) -> Request:

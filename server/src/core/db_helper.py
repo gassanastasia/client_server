@@ -4,8 +4,8 @@ from sqlalchemy.pool import NullPool
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
 
-from .config import settings
-from .models.base import Base
+from core.config import settings
+from core.models.base import Base
 
 class DatabaseHelper:
     def __init__(self, url: str, echo: bool = False):
